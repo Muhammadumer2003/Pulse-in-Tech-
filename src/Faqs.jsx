@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import person from "./assets/_Image_ (19).png"
 
 const FAQSection = () => {
   const [expandedQuestion, setExpandedQuestion] = useState(null);
@@ -69,7 +70,7 @@ const FAQSection = () => {
                 className="w-64 h-auto absolute bg-yellow-500 " 
               /> */}
               <img 
-                src="src\assets\_Image_ (19).png" 
+                src={person}
                 alt="Person thinking" 
                 className="w-64 h-auto pr-9  " 
               />
