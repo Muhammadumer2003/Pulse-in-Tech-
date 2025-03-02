@@ -7,6 +7,8 @@ import bg4 from "./assets/dffk.png"
 import bg5 from "./assets/trrk.png"
 import bg1 from "./assets/_Image_ (7).png"
 
+import bshape from "./assets/pngegg.png"
+
 const Impulse = () => {
 
     const packet=[{
@@ -45,7 +47,7 @@ const Impulse = () => {
         <div className='min-h-32 w-full bg-black'>
 
             <div className='flex justify-center items-center py-4 gap-5'>
-                <img src="src\assets\pngegg.png" alt="" className='h-20 '/>
+                <img src={bshape} alt="" className='h-20 '/>
                 <h1 className='text-3xl text-white  py-6'> THE SOLUTION</h1>
             </div>
            
@@ -94,7 +96,7 @@ const Impulse = () => {
                             
                         <div
                         className="border border-solid  border-yellow-500/100 p-4 bg-gray-100 rounded-lg bg-white"
-                        // style={{ backgroundImage: `url(${bground})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+                     
                         >
                         <h1>{e.title}</h1>
                         <p>
