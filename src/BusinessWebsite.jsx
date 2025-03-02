@@ -4,7 +4,7 @@ import issue2 from "./assets/_Group_ (16).png"
 import issue3 from "./assets/_Image_ (8).png"
 import issue4 from "./assets/_Group_ (9).png"
 import issue5 from "./assets/_Image_ (9).png"
-import issue6 from ""
+
 
 const BusinessWebsiteUI = () => {
   return (
