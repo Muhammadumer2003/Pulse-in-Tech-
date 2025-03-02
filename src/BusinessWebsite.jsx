@@ -1,4 +1,10 @@
 import React from 'react';
+import issue1 from "./assets/_Group_ (3).png"
+import issue2 from "./assets/_Group_ (16).png"
+import issue3 from "./assets/_Image_ (8).png"
+import issue4 from "./assets/_Group_ (9).png"
+import issue5 from "./assets/_Image_ (9).png"
+import issue6 from ""
 
 const BusinessWebsiteUI = () => {
   return (
@@ -31,7 +37,7 @@ const BusinessWebsiteUI = () => {
           <div className="flex flex-col items-center">
             <div className="w-36 h-36 border border-gray-300 rounded-lg mb-4 flex items-center justify-center bg-white overflow-hidden">
               <img 
-                src="src\assets\_Group_ (3).png" 
+                src= {issue1}
                 alt="Outdated website design" 
                 className="w-full h-full object-cover"
               />
@@ -46,7 +52,7 @@ const BusinessWebsiteUI = () => {
           <div className="flex flex-col items-center">
             <div className="w-36 h-36 border border-gray-300 rounded-lg mb-4 flex items-center justify-center bg-white overflow-hidden">
               <img 
-                src="src\assets\_Group_ (16).png" 
+                src={issue2} 
                 alt="Poor user experience" 
                 className="w-full h-full object-cover"
               />
@@ -61,7 +67,7 @@ const BusinessWebsiteUI = () => {
           <div className="flex flex-col items-center">
             <div className="w-36 h-36 border border-gray-300 rounded-lg mb-4 flex items-center justify-center bg-white overflow-hidden">
               <img 
-                src="src\assets\_Image_ (8).png" 
+                src={issue3}
                 alt="Limited functionality" 
                 className="w-full h-full object-cover"
               />
@@ -79,7 +85,7 @@ const BusinessWebsiteUI = () => {
           <div className="flex flex-col items-center w-1/3">
             <div className="w-36 h-36 border border-gray-300 rounded-lg mb-4 flex items-center justify-center bg-white overflow-hidden">
               <img 
-                src="src\assets\_Group_ (9).png" 
+                src={issue4}
                 alt="Lack of mobile optimization" 
                 className="w-full h-full object-cover"
               />
@@ -94,7 +100,7 @@ const BusinessWebsiteUI = () => {
           <div className="flex flex-col items-center w-1/3">
             <div className="w-36 h-36 border border-gray-300 rounded-lg mb-4 flex items-center justify-center bg-white overflow-hidden">
               <img 
-                src="src\assets\_Image_ (9).png" 
+                src={issue5}
                 alt="Inefficient management" 
                 className="w-full h-full object-cover"
               />

@@ -1,4 +1,5 @@
 import React from 'react';
+import wome from "./assets/_Image_ (20).png"
 
 const RevampBanner = () => {
   return (
@@ -32,7 +33,7 @@ const RevampBanner = () => {
         {/* Professional Woman Image */}
         <div className="relative h-64 w-64">
           <img 
-            src="src\assets\_Image_ (20).png" 
+            src={wome}
             alt="Professional woman in business attire"
             className="bottom-9 right-9  z-10 relative " 
           />
