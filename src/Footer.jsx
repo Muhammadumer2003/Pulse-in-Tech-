@@ -1,5 +1,5 @@
 import React from 'react';
-
+import bgtt from "./assets/logo.png"
 const PulseInTechFooter = () => {
   return (
     <div className="w-full">
@@ -11,7 +11,7 @@ const PulseInTechFooter = () => {
             {/* Logo placeholder */}
             <div className="flex items-center justify-center md:justify-start">
               <img 
-                src="src/assets/logo.png" 
+                src={bgtt} 
                 alt="Pulse in Tech Logo" 
                 className="h-12"
               />
