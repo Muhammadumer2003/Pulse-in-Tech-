@@ -1,9 +1,12 @@
 import React from 'react';
 import qns from "./assets/_Compound Path_.png"
+import bground from "./assets/bg.png"
 
 const WhyChooseUs = () => {
   return (
-    <div className="bg-yellow-200 p-4 md:p-8 rounded-lg w-full max-w-screen-xl mx-auto">
+    <div className=" p-4 md:p-8 rounded-lg w-full max-w-screen-xl mx-auto"
+    style={{ backgroundImage: `url(${bground})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+    >
       <h2 className="text-center text-2xl md:text-3xl font-bold mb-6 flex items-center justify-center">
         Why Choose Us 
         <div className="ml-2 relative">

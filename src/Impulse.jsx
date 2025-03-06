@@ -19,24 +19,24 @@ const Impulse = () => {
 
 
     },{
-        title: 'Marketing and SEO',
-        content: 'We help businesses build strong online presence, drive traffic, and improve their search engine rankings.',
+        title: 'Responsive & Mobile-Friendly',
+        content: 'Your site will look and perform perfectly on any device, providing a seamless experience for all users.',
         image: bg2
     },
 
     {
-        title: 'Customer Support and Maintenance',
-        content: 'We offer ongoing maintenance and support to help businesses stay on top of their digital challenges.',
+        title: 'E-commerce & Service Websites',
+        content: 'Whether you need an online store or a service-based site, we build platforms that drive sales and generate leads',
         image: bg3,
     },
     {
-        title: 'Branding and Identity',
-        content: 'We help businesses create memorable and recognizable branding materials, including logos, visuals, and marketing materials.',
+        title: 'CMS Integration',
+        content: 'We utilize platforms like WordPress, Shopify, and more, giving you control and flexibility.',
         image: bg4,
     },
     {
-        title: 'Data Analysis and Insights',
-        content: 'We help businesses gain valuable insights into their performance, customer behavior, and market trends.',
+        title: 'SEO Optimization',
+        content: 'Our sites are built with SEO best practices, helping you rank higher in search results and attract more visitors',
         image: bg5,
     }
 ]

@@ -4,10 +4,12 @@ import issue2 from "./assets/_Group_ (16).png";
 import issue3 from "./assets/_Image_ (8).png";
 import issue4 from "./assets/_Group_ (9).png";
 import issue5 from "./assets/_Image_ (9).png";
+import bground from "./assets/bg.png"
 
 const BusinessWebsiteUI = () => {
   return (
-    <div className="flex justify-center items-center h-full bg-[url('src/assets/bg.png')] bg-cover bg-center bg-no-repeat p-4">
+    <div className="flex justify-center items-center h-full bg-[url('src/assets/bg.png')] bg-cover bg-center bg-no-repeat p-4"
+    style={{ backgroundImage: `url(${bground})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="max-w-4xl w-full relative">
         {/* Yellow squares decoration */}
         <div className="absolute -right-6 top-4 hidden md:block">

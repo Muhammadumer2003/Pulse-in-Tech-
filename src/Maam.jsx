@@ -35,7 +35,7 @@ const RevampBanner = () => {
           <img 
             src={wome}
             alt="Professional woman in business attire"
-            className="absolute bottom-6 sm:bottom-8 md:bottom-9 right-6 sm:right-8 md:right-9 z-10 max-w-full max-h-full" 
+            className="absolute bottom-6 sm:bottom-8 md:bottom-9 right-6 sm:right-8 md:right-9 z-10 max-w-full max-h-full " 
           />
         </div>
       </div>

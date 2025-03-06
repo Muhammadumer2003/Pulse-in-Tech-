@@ -12,6 +12,7 @@ import PulseBanner from './Pulse'
 import PulseInTechBanner from './Footer'
 
 import Impulse from './Impulse'
+import PulseInTechLanding from './Contack'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
   <div className='w-full h-full bg-yellow-100'>
+      <PulseInTechLanding />
        <BusinessWebsiteUI/> 
         <WhyChooseUs/>
         <RevampBanner/>

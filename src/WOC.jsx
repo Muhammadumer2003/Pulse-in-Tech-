@@ -1,4 +1,5 @@
 import React from 'react';
+import bgtt from "./assets/_Image_ (18).png"
 
 const WebsiteOptimizationChecklist = () => {
   return (
@@ -31,7 +32,7 @@ const WebsiteOptimizationChecklist = () => {
             <div className="absolute -bottom-4 -right-6 bg-black rounded-2xl p-1 w-28 h-48 shadow-lg">
               <div className="bg-black text-white h-full w-full rounded-xl p-2 flex flex-col items-center">
                 <img 
-                  src="src/assets/_Image_ (18).png" 
+                  src={bgtt}
                   alt="Exclusive Website Optimization" 
                   className="w-full h-full object-cover rounded-xl"
                 />
