@@ -7,6 +7,13 @@ import Img5 from "./assets/_Image_ (16).png"
 import Img6 from "./assets/_Image_ (17).png"
 
 const PortfolioShowcase = () => {
+
+
+  const handleClick = () => {
+    window.location.href = "mailto:info@pulseintech.com";
+  };
+
+
   // Portfolio items with image paths or URLs
   const portfolioItems = [
     { id: 1, image: Img1 },
@@ -57,7 +64,7 @@ const PortfolioShowcase = () => {
         
         {/* Call to Action Button */}
         <div className="text-center">
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 sm:py-3 px-6 sm:px-10 rounded-md text-base sm:text-xl transition-colors duration-300">
+          <button onClick={handleClick} className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-2 sm:py-3 px-6 sm:px-10 rounded-md text-base sm:text-xl transition-colors duration-300">
             Get in Touch!
           </button>
         </div>

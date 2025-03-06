@@ -3,6 +3,10 @@ import qns from "./assets/_Compound Path_.png"
 import bground from "./assets/bg.png"
 
 const WhyChooseUs = () => {
+
+  const handleClick = () => {
+    window.location.href = "mailto:info@pulseintech.com";
+  };
   return (
     <div className=" p-4 md:p-8 rounded-lg w-full max-w-screen-xl mx-auto"
     style={{ backgroundImage: `url(${bground})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
@@ -103,7 +107,7 @@ const WhyChooseUs = () => {
       </div>
       
       <div className="mt-6 md:mt-8 text-center">
-        <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 md:py-3 md:px-8 rounded-lg text-sm md:text-base">
+        <button onClick={handleClick} className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 md:py-3 md:px-8 rounded-lg text-sm md:text-base">
           Connect with Us Now!
         </button>
       </div>

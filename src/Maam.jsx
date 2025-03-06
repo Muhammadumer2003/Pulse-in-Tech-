@@ -2,6 +2,10 @@ import React from 'react';
 import wome from "./assets/_Image_ (20).png";
 
 const RevampBanner = () => {
+
+  const handleClick = () => {
+    window.location.href = "mailto:info@pulseintech.com";
+  };
   return (
     <div className="relative bg-white flex flex-col md:flex-row items-center justify-between w-full px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-5 rounded-lg overflow-hidden shadow-lg border border-gray-200">
       {/* Left Content Section */}
@@ -14,7 +18,7 @@ const RevampBanner = () => {
           We offer a free audit and a special discount if you choose to revamp your site with us. Experience the difference our expertise can make!
         </p>
         
-        <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-bold py-2 px-4 sm:px-6 rounded text-sm sm:text-base mb-6 md:mb-0">
+        <button onClick={handleClick} className="bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-bold py-2 px-4 sm:px-6 rounded text-sm sm:text-base mb-6 md:mb-0">
           Claim Your Discount!
         </button>
       </div>

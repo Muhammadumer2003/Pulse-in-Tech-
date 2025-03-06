@@ -2,7 +2,14 @@ import React from 'react';
 import bgtt from "./assets/_Image_ (18).png"
 
 const WebsiteOptimizationChecklist = () => {
+
+  const handleClick = () => {
+    window.location.href = "mailto:info@pulseintech.com";
+  };
+
   return (
+
+
     <div className="w-full relative overflow-hidden p-6">
       {/* Diamond pattern background */}
       <div className="absolute inset-0 z-0">
@@ -56,7 +63,7 @@ const WebsiteOptimizationChecklist = () => {
               className="bg-gray-200 py-3 px-4 rounded mb-4 w-full border border-gray-300 focus:ring-2 focus:ring-yellow-400"
             />
             
-            <button className="bg-yellow-400 hover:bg-yellow-500 py-3 px-6 rounded font-bold text-lg text-center w-full">
+            <button onClick={handleClick} className="bg-yellow-400 hover:bg-yellow-500 py-3 px-6 rounded font-bold text-lg text-center w-full">
               Get Your Free Checklist
             </button>
           </div>
