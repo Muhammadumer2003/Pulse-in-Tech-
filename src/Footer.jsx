@@ -26,22 +26,25 @@ const PulseInTechFooter = () => {
         <div className="bg-yellow-300 flex flex-col md:flex-row justify-between w-full">
           {/* Quick Links Section */}
           <div className="p-6">
-            <h2 className="text-xl font-bold mb-4">Quick Links</h2>
+            <h2 className="text-xl font-bold mb-4">Services</h2>
             <ul className="list-none">
               <li className="mb-2 flex items-center">
                 <span className="mr-2">•</span> Website Development
               </li>
               <li className="mb-2 flex items-center">
-                <span className="mr-2">•</span> Mobile App Development
+                <span className="mr-2">•</span>  App Development
               </li>
               <li className="mb-2 flex items-center">
-                <span className="mr-2">•</span> CMS Development
+                <span className="mr-2">•</span>  Social Media Marketing
               </li>
               <li className="mb-2 flex items-center">
-                <span className="mr-2">•</span> Digital Marketing
+                <span className="mr-2">•</span> Search Engine Optimization
               </li>
               <li className="mb-2 flex items-center">
-                <span className="mr-2">•</span> White Label
+                <span className="mr-2">•</span> Brand Identity Design
+              </li>
+              <li className="mb-2 flex items-center">
+                <span className="mr-2">•</span> Ecommerce Solutions
               </li>
             </ul>
           </div>

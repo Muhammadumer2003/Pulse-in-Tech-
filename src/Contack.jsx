@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import bground from "./assets/bg.png"
+import bgtt from "./assets/logo.png"
 
 
 const PulseInTechLanding = () => {
@@ -17,6 +18,9 @@ const PulseInTechLanding = () => {
       ...prevState,
       [name]: value
     }));
+  };
+  const handleClick = () => {
+    window.location.href = "mailto:info@pulseintech.com";
   };
 
   const handleSubmit = (e) => {
@@ -39,11 +43,16 @@ const PulseInTechLanding = () => {
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold">
+            {/* <h1 className="text-2xl font-bold">
               <span className="text-yellow-500">pulse</span>
               <span className="text-gray-800">in</span>
               <span className="text-yellow-500">tech</span>
-            </h1>
+            </h1> */}
+            <img 
+                            src={bgtt} 
+                            alt="Pulse in Tech Logo" 
+                            className="h-8"
+                          />
           </div>
           <div className="flex items-center">
             <div className="hidden md:flex items-center mr-4">
@@ -52,7 +61,7 @@ const PulseInTechLanding = () => {
               </svg>
               <span className="text-gray-600">Call us Now!</span>
             </div>
-            <a href="tel:647-482-0544" className="text-gray-800 font-semibold">647-482-0544</a>
+            <a href="tel:647-482-0544" className="text-gray-800 font-semibold">647-482-0545</a>
           </div>
         </div>
       </header>
@@ -141,6 +150,7 @@ const PulseInTechLanding = () => {
                   ></textarea>
                 </div>
                 <button
+                onClick={handleClick}
                   type="submit"
                   className="w-full bg-yellow-500 text-white py-3 px-4 rounded-lg font-semibold hover:bg-yellow-600 transition duration-300"
                 >
